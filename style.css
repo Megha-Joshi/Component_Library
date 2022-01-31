@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+/* Primary */
+/* background: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd); */
+/* Secondary */
+/* color: #05cecd; */
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 40px 50px 0px 20px;
+    /* flex-wrap: wrap; */
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.left-nav a:hover{
+    color: #05cecd;
+}
+
+.right-nav {
+    display: flex;
+    margin-left: auto;
+    flex: 0 0 300px;
+    height: 200px;
+    list-style: none;
+    gap: 25px;
+    justify-content: end;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+.right-nav li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.right-nav li a:hover{
+    color: #05cecd;
+}
+
+/* .main-container {
+    width: 100%;
+    text-align: center;
+} */
+
+/* h1 {
+    padding: 20px;
+} */
+
+/* .main-container p {
+    padding: 20px;
+} */
+.p-container {
+    position: relative;
+    width: 100%;
+}
+.text {
+    position: absolute;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 200px;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.btn-primary {
+    position: absolute;
+    text-decoration: none;
+    background: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
+    padding: 15px 30px;
+    top: 60%;
+    left: 30%;
+    border-radius: 30px;
+    min-width: 200px;
+    text-align: center;
+
+}
+.btn-primary:hover{
+    background: white;
+    color: #05cecd; 
+    /* Doubt */
+}
+
+.btn-secondary {
+    position: absolute;
+    text-decoration: none;
+    border: 5px solid transparent;
+    /* border-image: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
+    border-image-slice: 1; */
+    /* background: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd); */
+    /* background-color: white; */
+    border: 3px solid #05cecd;
+    color: #05cecd;
+    border-radius: 30px;
+    padding: 15px 30px;
+    top: 60%;
+    left: 50%;
+    min-width: 200px;
+    text-align: center;
+}
+.btn-secondary:hover{
+    background: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
+    color: white;
+}
+
+
+
+.text-h {
+    top: 20%;
+    left: 35%;
+}
+
+.text-p {
+    top: 40%;
+    left: 20%;
+    /* font-size: 20px; */
+}
+
+.bg-img {
+    width: 100%;
+    height: 648px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow-y: hidden;
+}
