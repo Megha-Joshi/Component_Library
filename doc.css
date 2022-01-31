@@ -1,5 +1,5 @@
 @import url(nav.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* Docs */
 .main{
     display: flex;
@@ -38,4 +38,21 @@
     border-bottom: 2px solid #05cecd;
     padding-top: 20px;
     width: 230px;
+}
+.right-container{
+    margin-right: 100px;
+}
+.title{
+    margin: 10px 100px 20px 10px;
+}
+.title-content{
+    font-weight: 300;
+    /* text-align: start; */
+    font-size: 16px;
+    line-height: 35px;
+    margin-right: 200px;
+}
+.divide{
+    width: 900px;
+    margin: 10px 10px 40px 10px;
 }

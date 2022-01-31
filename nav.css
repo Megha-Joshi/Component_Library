@@ -10,8 +10,8 @@
     --primary-color: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
     /* --accent-color : #172B4D; */
     --secondary-color: #05cecd;
-    --bg-color: white;
-    --font-color: black;
+    --bg-color: #FFFFFF;
+    --font-color: #000000;
     --danger-color: #F44336;
     --success-color: #4CAF50;
     --warning-color: #FF9800;
