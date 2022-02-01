@@ -37,7 +37,7 @@
 .line{
     border-bottom: 2px solid #05cecd;
     padding-top: 20px;
-    width: 230px;
+    min-width: 230px;
 }
 .right-container{
     margin-right: 100px;
@@ -52,7 +52,7 @@
     line-height: 35px;
     margin-right: 200px;
 }
-.divide{
+.w-800{
     width: 800px;
     margin: 10px 10px 40px 10px;
 }
