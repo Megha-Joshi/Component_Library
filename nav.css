@@ -9,7 +9,8 @@
 :root {
     --primary-color: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
     /* --accent-color : #172B4D; */
-    --secondary-color: #05cecd;
+    --secondary-color: #05cecd ;
+    --accent-color: #393D96;
     --bg-color: #FFFFFF;
     --font-color: #000000;
     --danger-color: #F44336;
@@ -51,7 +52,7 @@ body {
 }
 
 .left-nav a:hover {
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 .right-nav {
@@ -73,5 +74,5 @@ body {
 }
 
 .right-nav li a:hover {
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
