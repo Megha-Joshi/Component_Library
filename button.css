@@ -1,0 +1,116 @@
+@import url(nav.css);
+@import url(doc.css);
+@import url(main.css);
+.btn-example {
+    display: flex;
+    background-color: #d3e0e0;
+    width: 80%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 0.8rem 1rem;
+    min-width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-text{
+    color: var(--bg-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+}
+.btn-success:hover{
+    background-color: var(--success-hover);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+}
+.btn-danger:hover{
+    background-color: var(--danger-hover);
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+}
+.btn-warning:hover{
+    background-color: var(--warning-hover);
+}
+
+.btn-info {
+    background-color: var(--accent-color);
+}
+.btn-info:hover{
+    background-color: var(--accent-hover);
+}
+
+.btn-success-outline {
+    border: 3px solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn-success-outline:hover{
+    background-color: var(--success-color);
+    color: var(--bg-color);
+}
+
+.btn-danger-outline {
+    border: 3px solid var(--danger-color);
+    color: var(--danger-color);
+}
+.btn-danger-outline:hover{
+    background-color: var(--danger-color);
+    color: var(--bg-color);
+}
+
+.btn-warning-outline {
+    border: 3px solid var(--warning-color);
+    color: var(--warning-color);
+}
+.btn-warning-outline:hover{
+    background-color: var(--warning-color);
+    color: var(--bg-color);
+}
+
+.btn-info-outline {
+    border: 3px solid var(--accent-color);
+    color: var(--accent-color);
+}
+.btn-info-outline:hover{
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
+.btn-secondary-outline{
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+.icon-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn-img{
+    width: 20px;
+    height: 20px;
+}
+.float-img{
+    width: 50px;
+    height: 50px;
+}
