@@ -21,6 +21,8 @@
 .round-image{
     width: 150px;
     height: 150px;
+}
+.round{
     border-radius: 50%;
 }
 .square-image{
