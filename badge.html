@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="doc.css">
+    <link rel="stylesheet" href="badge.css">
+    <link rel="stylesheet" href="avatar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="left-nav">
+                <a href="/">Component Library</a>
+            </div>
+            <ul class="right-nav">
+                <li>
+                    <a href="/">Docs</a>
+                </li>
+                <li>
+                    <a href="/">Examples</a>
+                </li>
+                <li>
+                    <a href="/">Releases</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Docs -->
+    <div class="main">
+        <div class="left-container gutter">
+            <h3 class="item item-one">Get Started</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="item">
+                    <a href="doc.html">Introduction</a>
+                </li>
+                <li class="item">
+                    <a href="/">Colors</a>
+                </li>
+                <li class="item">
+                    <a href="/">Typography</a>
+                </li>
+                <li class="item">
+                    <a href="/">Conclusion</a>
+                </li>
+            </ul>
+            <h3 class="item item-one">Components</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="item">
+                    <a href="/">Avatar</a>
+                </li>
+                <li class="item">
+                    <a href="/">Alert</a>
+                </li>
+                <li class="item">
+                    <a href="/">Badge</a>
+                </li>
+                <li class="item">
+                    <a href="/">Button</a>
+                </li>
+                <li class="item">
+                    <a href="/">Card</a>
+                </li>
+                <li class="item">
+                    <a href="/">Image</a>
+                </li>
+                <li class="item">
+                    <a href="/">Input</a>
+                </li>
+                <li class="item">
+                    <a href="/">List</a>
+                </li>
+                <li class="item">
+                    <a href="/">Toast</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <h1 class="title">Badge</h1>
+            <p class="title-content line-space title">Badges are small circles, positioned either at top-right or
+                bottom-right of the parent component. Badge can be used to display numbers, online / offline status,
+                depending on where they are used.</p>
+            <div class="line w-800"></div>
+            <!-- Badge on icons -->
+            <h2 class="title">Badge on icons</h2>
+            <p class="title-content line-space title">Number Badge is used to show the no. of items present in the
+                parent component.</p>
+            <div class="badge-container">
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/mdi:home.svg" class="badge-icon">
+                    <div class="badge red-circle">9</div>
+                </div>
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/mdi:bell.svg" class="badge-icon">
+                    <div class="badge yellow-circle">7</div>
+                </div>
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/feather:shopping-cart.svg" class="badge-icon">
+                    <div class="badge green-circle">5</div>
+                </div>
+            </div>
+            <div class="line w-800"></div>
+            <!-- Badge on Avatars -->
+            <h2 class="title">Badge on avatars</h2>
+            <p class="title-content line-space title">Profile Badge is used to show the current status of a user</p>
+            <div class="badge-container">
+                <div class="badge-item">
+                    <img src="avatar.jpeg" class="avatar-image sm">
+                    <div class="dnd badge-border avatar-badge avatar-badge-pos"></div>
+                </div>
+                <div class="badge-item">
+                    <img src="avatar.jpeg" class="avatar-image sm">
+                    <div class="badge-border avatar-badge avatar-badge-pos offline"></div>
+                </div>
+                <div class="badge-item">
+                    <img src="avatar.jpeg" class="avatar-image sm">
+                    <div class="online badge-border avatar-badge avatar-badge-pos "></div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
