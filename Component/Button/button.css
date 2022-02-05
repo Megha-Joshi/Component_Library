@@ -1,9 +1,9 @@
 @import url(nav.css);
 @import url(doc.css);
 @import url(main.css);
-.btn-example {
+.btn-container {
     display: flex;
-    background-color: #d3e0e0;
+    background-color: var(--box-color);
     width: 80%;
     gap: 20px;
     flex-wrap: wrap;
