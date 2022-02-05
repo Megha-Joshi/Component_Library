@@ -30,7 +30,7 @@
 }
 .font{
     background: var(--font-color);
-    color: white;
+    color: var(--bg-color);
 }
 .success{
     background-color: var(--success-color);
