@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border:none;
 }
 
 :root {
@@ -11,19 +14,21 @@
     /* --accent-color : #172B4D; */
     --secondary-color: #05cecd ;
     --accent-color: #393D96;
-    --bg-color: #FFFFFF;
+    --bg-color: #F5F5F5;
     --font-color: #000000;
     --danger-color: #F44336;
     --success-color: #4CAF50;
     --warning-color: #FF9800;
 
-    /* --primary-hover : #4F46E5;
-    --secondary-hover: #E5E7EB;
+    /* --primary-hover : #4F46E5; */
+    /* --secondary-hover: #E5E7EB; */
     --danger-hover : #d31609 ;
     --success-hover: #0d8611;
-    --active-hover : #058ce0;
+    --warning-hover: #C67700;
+    --accent-hover: #2c3077;
+    /* --active-hover : #058ce0; */
 
-    --off-white : #F6F9FC;
+    /* --off-white : #F6F9FC;
     --active-color : #1EA7FD; */
 }
 
