@@ -5,19 +5,19 @@
     display: flex;
     background-color: var(--box-color);
     width: 80%;
-    gap: 20px;
+    gap: 1.25rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 20px 10px;
-    padding: 20px;
+    margin: 1.25rem 0.625rem;
+    padding: 1.25rem;
 }
 
 .btn {
     margin: 10px;
     padding: 0.8rem 1rem;
-    min-width: 100px;
+    min-width: 6.25rem;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -26,9 +26,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-
-.btn-secondary {
-    background-color: var(--secondary-color);
+.btn-primary{
+    background: var(--primary-color);
+}
+.btn-primary:hover{
+    background: var(--bg-color);
+    color: var(--secondary-color);
 }
 
 .btn-success {
@@ -107,10 +110,10 @@
     gap: 10px;
 }
 .btn-img{
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 .float-img{
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
 }
