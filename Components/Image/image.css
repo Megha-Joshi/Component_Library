@@ -1,17 +1,17 @@
 @import url(nav.css);
 @import url(doc.css);
 
-.img-example{
+.img-container{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 1.8rem;
     background-color: #d3e0e0;
     width: 80%;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 20px 10px;
-    padding: 20px;
+    margin: 1.25rem 0.625rem;
+    padding: 1.25rem;
 }
 .res-image{
     width: 100%;
@@ -19,14 +19,14 @@
     object-fit: cover;
 }
 .round-image{
-    width: 150px;
-    height: 150px;
+    width: 9rem;
+    height: 9rem;
 }
 .round{
     border-radius: 50%;
 }
 .square-image{
-    width: 140px;
-    height: 140px;
+    width: 8.75rem;
+    height: 8.75rem;
     border-radius: 5px;
 }
