@@ -1,59 +1,57 @@
-@import url(nav.css);
+@import url(css\nav.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* Docs */
 .main{
     display: flex;
     flex: 0 0 100%;
-    gap: 50px;
+    gap: 3rem;
  } 
 .left-container{
     width: 15%;
 }
 .gutter{
-    margin: 0px 30px 20px 140px;
+    margin: 0rem 1.8rem 1.25rem 8.75rem;
 }
-.item{
+.list-menu{
     list-style: none;
     margin-top: 10px;
     padding: 10px;
     cursor: pointer;
 }
-.item:hover{
+.list-menu:hover{
     background: var(--primary-color);
     border-radius: 5px;
 }
-.item:focus{
+.list-menu:focus{
     color: var(--seconday-color);
 }
-.item-one:hover{
+.list-menu-no-hover:hover{
     background: none;
-    border-radius: 0px;
+    border-radius: 0rem;
 }
-.item a{
+.list-menu a{
     text-decoration: none;
     color: var(--font-color);
     font-weight: 600;
 }
 .line{
     border-bottom: 2px solid #05cecd;
-    padding-top: 20px;
-    min-width: 230px;
+    padding-top: 1.25rem;
+    min-width: 14.3rem;
 }
 .right-container{
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 .title{
-    margin: 10px 0px 20px 10px;
+    margin: 0.625rem 0rem 1.25rem 0.625rem;
 }
 .title-content{
     font-weight: 300;
     font-size: 16px;
-}
-.line-space{
-    line-height: 35px;
-    margin-right: 200px;
+    line-height: 2rem;
+    margin-right: 12.5rem;
 }
 .w-800{
-    width: 800px;
-    margin: 10px 10px 40px 10px;
+    width: 50rem;
+    margin: 0.625rem 0.625rem 2.5rem 0.625rem;
 }
