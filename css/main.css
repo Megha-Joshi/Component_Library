@@ -43,7 +43,7 @@
     border: 5px solid transparent;
     border: 3px solid var(--secondary-color);
     color: var(--secondary-color);
-    border-radius: 30px;
+    border-radius: 1.8rem;
     padding: 0.9rem 1.8rem;
     top: 60%;
     left: 50%;
