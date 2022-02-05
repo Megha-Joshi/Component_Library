@@ -3,32 +3,31 @@
     background-color: #d3e0e0;
     width: 80%;
     min-height: 40%;
-    gap: 20px;
+    gap: 1.25rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 20px 10px;
-    padding: 20px;
+    margin: 1.25rem 0.625rem;
+    padding: 1.25rem;
 }
 .form-container{
     background-color: var(--bg-color);
     border-radius: 5px;
     height: 100%;
-    width: 40%;
+    width: 50%;
     margin: 10px;
-    padding: 20px;
+    padding: 1.25rem;
 }
 .input-text{
-    /* margin: 20px 10px; */
     padding: 10px;
 }
 .input-box{
     width: 80%;
     height: 10px;
-    margin:  20px 10px;
+    margin:  10px;
     border-radius: 5px;
-    padding: 20px 10px;
+    padding: 1.25rem 0.625rem;
     outline: none;
 }
 .input-box:focus{
@@ -36,7 +35,10 @@
 }
 .error{
     color: var(--danger-color);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    margin-left: 10px;
+    font-size: 14px;
+    width: 100%;
 }
 .error-box{
     border: 1px solid red;
