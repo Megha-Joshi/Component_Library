@@ -1,5 +1,5 @@
-@import url(nav.css);
-@import url(doc.css);
+@import url(css\nav.css);
+@import url(css\doc.css);
 
 .color-palette{
     display: flex;
