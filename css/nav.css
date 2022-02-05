@@ -4,24 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary-color: linear-gradient(90deg, #06b6e4 0, #06bedc 32%, #05cbd0 64%, #05cecd);
-    --secondary-color: #05cecd ;
-    --accent-color: #393D96;
-    --bg-color: #FFFFFF;
-    --font-color: #000000;
-    --danger-color: #F44336;
-    --success-color: #4CAF50;
-    --warning-color: #FF9800;
-}
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
     border:none;
@@ -87,54 +69,6 @@ body {
     gap: 25px;
     justify-content: end;
     margin-right: 100px;
-    flex-wrap: wrap;
-}
-
-.right-nav li a {
-    text-decoration: none;
-    color: var(--font-color);
-    cursor: pointer;
-}
-
-.right-nav li a:hover {
-    color: var(--accent-color);
-}
-body {
-    width: 100%;
-    min-height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-}
-
-.header {
-    display: flex;
-    width: 100%;
-    height: 6.25rem;
-    justify-content: space-between;
-    align-content: center;
-    padding: 2.5rem 3rem 0rem 1.25rem;
-}
-
-.left-nav a {
-    text-decoration: none;
-    color: var(--font-color);
-    margin-left: 6.25rem;
-    cursor: pointer;
-}
-
-.left-nav a:hover {
-    color: var(--accent-color);
-}
-
-.right-nav {
-    display: flex;
-    margin-left: auto;
-    flex: 0 0 18.75rem;
-    height: 12.5rem;
-    list-style: none;
-    gap: 1.5rem;
-    justify-content: end;
-    margin-right: 6.25rem;
     flex-wrap: wrap;
 }
 
