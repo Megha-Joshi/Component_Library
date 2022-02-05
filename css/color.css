@@ -1,22 +1,20 @@
-@import url(nav.css);
-@import url(doc.css);
+@import url(css\nav.css);
+@import url(css\doc.css);
 
 .color-palette{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 50%;
-    margin-top: 40px;
-    /* background-color: tomato; */
+    margin-top: 2.5rem;
 }
 .color{
     display: flex;
     width: 80%;
-    height: 50px;
+    height: 3rem;
     justify-content: space-between;
     align-items: center;
-    /* gap: 50px; */
-    padding: 20px;
+    padding: 1.25rem;
 }
 .primary{
     background: var(--primary-color);
@@ -32,7 +30,7 @@
 }
 .font{
     background: var(--font-color);
-    color: white;
+    color: var(--bg-color);
 }
 .success{
     background-color: var(--success-color);
