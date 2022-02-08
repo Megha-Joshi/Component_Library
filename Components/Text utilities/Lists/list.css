@@ -16,25 +16,22 @@
 .stacked {
     padding: 10px;
     border-radius: 5px;
-    color: var(--bg-color);
+    color: rgba(0, 0, 0, 0.719);
     background-color: var(--accent-color);
 }
 
 .spaced {
     display: inline-block;
     margin: 5px;
-    /* text-align: center; */
 }
 
 .stacked {
     margin: 20px;
 }
-/* .ul .bullet{
-    list-style-type: disc;
-} */
-/* ul li{
+
+.bullet {
     list-style-type: circle;
-} */
-ol li{
-    list-style-type: disc;
+}
+.non-bullet{
+    list-style-type: none;
 }
