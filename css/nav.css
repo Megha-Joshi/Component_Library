@@ -24,6 +24,14 @@
     --success-hover: #0d8611;
     --warning-hover: #C67700;
     --accent-hover: #2c3077;
+
+    --container-gap: 1.25rem;
+    --container-width: 80%;
+    --container-margin: 1.25rem 0.625rem;
+    --container-height: 40%;
+    --lcontainer-height: 50%;
+    --container-border-radius: 5%;
+    --container-padding: 1.25rem;
 }
 
 body {
