@@ -3,19 +3,19 @@
 .alert-container{
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: var(--container-gap);
     background-color: var(--box-color);
-    width: 80%;
-    height: 40%;
+    width: var(--container-width);
+    height: var(--container-height);
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    margin: 1.25rem 0.625rem;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
 }
 .alert{
     width: 90%;
     padding: 0.95rem;
-    border-radius: 5px;
+    border-radius: var(--container-border-radius);
 }
 .primary-alert{
     background: var(--primary-color);
