@@ -5,20 +5,20 @@
 .card-container {
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
-    background-color: #d3e0e0;
-    width: 80%;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    margin: 1.25rem 0.625rem;
-    padding: 1.25rem;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
 }
 
 .card {
     width: 25rem;
-    border-radius: 5px;
-    padding-bottom: 1.25rem;
+    border-radius: var(--container-border-radius);
+    padding-bottom: var(--container-padding);
     cursor: pointer;
     background-color: var(--bg-color);
 }
@@ -47,7 +47,7 @@
 
 .card-footer-start {
     justify-content: flex-start;
-    gap: 1.25rem;
+    gap: var(--container-gap);
     margin-left: 5px;
 }
 
