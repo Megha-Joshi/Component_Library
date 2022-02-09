@@ -1,23 +1,23 @@
 .input-container {
     display: flex;
     background-color: var(--box-color);
-    width: 80%;
-    min-height: 40%;
-    gap: 1.25rem;
+    width: var(--container-width);
+    min-height: var(--container-height);
+    gap: var(--container-gap);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    margin: 1.25rem 0.625rem;
-    padding: 1.25rem;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
 }
 .form-container{
     background-color: var(--bg-color);
-    border-radius: 5px;
+    border-radius: var(--container-border-radius);
     height: 100%;
     width: 50%;
     margin: 10px;
-    padding: 1.25rem;
+    padding: var(--container-padding);
 }
 .error{
     color: var(--danger-color);

@@ -1,17 +1,17 @@
-@import url(nav.css);
-@import url(doc.css);
+@import url(\css\nav.css);
+@import url(\css\doc.css);
 
 .img-container{
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: var(--container-gap);
     background-color: var(--box-color);
-    width: 80%;
+    width: var(--container-width);
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    margin: 1.25rem 0.625rem;
-    padding: 1.25rem;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
 }
 .res-image{
     width: 100%;
