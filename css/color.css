@@ -1,14 +1,15 @@
 @import url(css\nav.css);
 @import url(css\doc.css);
 
-.color-palette{
+.color-palette {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 50%;
     margin-top: 2.5rem;
 }
-.color{
+
+.color {
     display: flex;
     width: 80%;
     height: 3rem;
@@ -16,29 +17,37 @@
     align-items: center;
     padding: 1.25rem;
 }
-.primary{
+
+.primary {
     background: var(--primary-color);
 }
-.accent{
+
+.accent {
     background: var(--accent-color);
     color: var(--bg-color);
 }
-.secondary{
+
+.secondary {
     background: var(--secondary-color);
 }
-.bground{
+
+.bground {
     background: var(--bg-color);
 }
-.font{
+
+.font {
     background: var(--font-color);
     color: var(--bg-color);
 }
-.success{
+
+.success {
     background-color: var(--success-color);
 }
-.danger{
+
+.danger {
     background: var(--danger-color);
 }
-.warning{
+
+.warning {
     background-color: var(--warning-color);
 }
