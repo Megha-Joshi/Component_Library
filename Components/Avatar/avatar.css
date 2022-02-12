@@ -1,4 +1,4 @@
-.avatar-container{
+.avatar-container {
     display: flex;
     flex-direction: row;
     gap: var(--container-gap);
@@ -10,17 +10,20 @@
     margin: var(--container-margin);
     padding: var(--container-padding);
 }
-.avatar-image{
+
+.avatar-image {
     width: 6.25rem;
     height: 6.25rem;
     border-radius: 50%;
 
 }
-.sm{
+
+.sm {
     width: 3rem;
     height: 3rem;
 }
-.lg{
+
+.lg {
     width: 9.3rem;
     height: 9.3rem;
 }

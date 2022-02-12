@@ -1,4 +1,4 @@
-.badge-container{
+.badge-container {
     display: flex;
     flex-direction: row;
     gap: var(--container-gap);
@@ -10,14 +10,17 @@
     margin: var(--container-margin);
     padding: var(--container-padding);
 }
-.badge-item{
+
+.badge-item {
     position: relative;
 }
-.badge-icon{
+
+.badge-icon {
     width: 2.5rem;
     height: 2.5rem;
 }
-.badge{
+
+.badge {
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 100%;
@@ -26,28 +29,37 @@
     top: 0;
     right: 0;
 }
-.red-circle, .dnd{
+
+.red-circle,
+.dnd {
     background-color: var(--danger-color);
 }
-.yellow-circle{
+
+.yellow-circle {
     background-color: var(--warning-color);
 }
-.green-circle, .online{
+
+.green-circle,
+.online {
     background-color: var(--success-color);
 }
-.badge-border{
+
+.badge-border {
     border: 2px solid var(--bg-color);
 }
-.avatar-badge{
+
+.avatar-badge {
     width: 0.9rem;
     height: 0.9rem;
     border-radius: 100%;
     position: absolute;
 }
-.avatar-badge-pos{
+
+.avatar-badge-pos {
     top: 2rem;
     left: 2.3rem;
 }
-.offline{
+
+.offline {
     background-color: lightgray;
 }
