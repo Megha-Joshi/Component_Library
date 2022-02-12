@@ -1,6 +1,4 @@
-@import url(css\nav.css);
-@import url(css\doc.css);
-.text-container{
+.text-container {
     display: flex;
     flex-direction: column;
     background-color: var(--box-color);
@@ -10,48 +8,61 @@
     padding: 10px;
     margin: 1.25rem 0.6rem;
 }
-.small-container{
+
+.small-container {
     height: 20%;
 }
-.text-sentence{
+
+.text-sentence {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 30%;
     margin: 5px;
 }
-.small-text{
+
+.small-text {
     font-size: small;
 }
-.smaller-text{
+
+.smaller-text {
     font-size: smaller;
 }
-.xsmall-text{
+
+.xsmall-text {
     font-size: x-small;
 }
-.xxsmall-text{
+
+.xxsmall-text {
     font-size: xx-small;
 }
-.w-700{
+
+.w-700 {
     min-width: 31.25rem;
     margin: 0.5rem 0rem;
     padding: 0rem;
 }
-.gray-text{
+
+.gray-text {
     color: gray;
 }
-.large-text{
+
+.large-text {
     font-size: large;
 }
-.xlarge-text{
+
+.xlarge-text {
     font-size: xx-large;
 }
-.centered-text{
+
+.centered-text {
     text-align: center;
 }
-.centered-sentence{
+
+.centered-sentence {
     margin: 5px;
 }
-.center-container{
+
+.center-container {
     height: 10%;
 }
