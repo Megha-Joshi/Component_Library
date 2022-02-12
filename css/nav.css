@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
     border: none;
 }
 
@@ -18,11 +17,20 @@
     --danger-color: #F44336;
     --success-color: #4CAF50;
     --warning-color: #FF9800;
+    --box-color: #d3e0e0;
 
     --danger-hover: #d31609;
     --success-hover: #0d8611;
     --warning-hover: #C67700;
     --accent-hover: #2c3077;
+
+    --container-gap: 1.25rem;
+    --container-width: 80%;
+    --container-margin: 1.25rem 0.625rem;
+    --container-height: 40%;
+    --lcontainer-height: 50%;
+    --container-border-radius: 5px;
+    --container-padding: 1.25rem;
 }
 
 body {

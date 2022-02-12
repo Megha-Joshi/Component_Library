@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="\css\nav.css">
     <link rel="stylesheet" href="\css\doc.css">
     <link rel="stylesheet" href="\Components\Snackbar\snack.css">
-    <title>Document</title>
+    <title>Snackbar</title>
 </head>
 
 <body>
     <div class="container">
         <nav class="header">
             <div class="left-nav">
-                <a href="/">Component Library</a>
+                <a href="/">Ozone</a>
             </div>
             <ul class="right-nav">
                 <li>
@@ -45,12 +45,6 @@
                 </li>
                 <li class="list-menu">
                     <a href="/">Colors</a>
-                </li>
-                <li class="list-menu">
-                    <a href="/">Typography</a>
-                </li>
-                <li class="list-menu">
-                    <a href="/">Conclusion</a>
                 </li>
             </ul>
             <h3 class="list-menu list-menu-no-hover">Components</h3>
@@ -90,22 +84,28 @@
             <p class="title-content title">Snackbars provide brief messages about app processes at the bottom of the
                 screen.</p>
             <div class="line w-800"></div>
+            <!-- Baseline -->
             <h2 class="title">Baseline Snackbar</h2>
-            <p class="title-content title">Ozone provides a baseline snackbar to start an consistent, and simple baseline snackbar to build upon.</p>
+            <p class="title-content title">Ozone provides a baseline snackbar to start an consistent, and simple
+                baseline snackbar to build upon.</p>
             <div class="snackbar-container">
                 <div class="inside-container">
                     <p>Can't send photo. Retry in 5 seconds.</p>
-                    <button class="btn">RETRY</button>
-                    <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                    <div class="item item-one">
+                        <button class="btn">RETRY</button>
+                        <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                    </div>
                 </div>
             </div>
+            <!-- Leading -->
             <div class="line w-800"></div>
             <h2 class="title">Leading Snackbar</h2>
-            <p class="title-content title">On larger screens, leading snackbars displayed on the leading edge of the screen. </p>
-            <div class="snackbar-container lead">
-                <div class="inside-container margin lead-one">
+            <p class="title-content title">On larger screens, leading snackbars displayed on the leading edge of the
+                screen. </p>
+            <div class="snackbar-container leadsnack">
+                <div class="inside-container margin-lead">
                     <p>Your photo has been archieved.</p>
-                    <div class="icons icons-one">
+                    <div class="item item-one">
                         <button class="btn">UNDO</button>
                         <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
                     </div>
@@ -114,13 +114,14 @@
             <!-- Stacked -->
             <div class="line w-800"></div>
             <h2 class="title">Stacked Snackbar</h2>
-            <p class="title-content title">Action buttons with long text should be positioned below the label instead of alongside it.</p>
+            <p class="title-content title">Action buttons with long text should be positioned below the label instead of
+                alongside it.</p>
             <div class="snackbar-container">
                 <div class="inside-container stacked">
                     <div>
                         <p>This item already has the label "travel". You can add a new label.</p>
                     </div>
-                    <div class="icons icons-one">
+                    <div class="item item-one">
                         <button class="btn">ADD A NEW LABEL</button>
                         <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
                     </div>
