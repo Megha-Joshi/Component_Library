@@ -1,6 +1,4 @@
-@import url(nav.css);
-@import url(doc.css);
-.alert-container{
+.alert-container {
     display: flex;
     flex-direction: column;
     gap: var(--container-gap);
@@ -12,43 +10,54 @@
     border-radius: var(--container-border-radius);
     margin: var(--container-margin);
 }
-.alert{
+
+.alert {
     width: 90%;
     padding: 0.95rem;
     border-radius: var(--container-border-radius);
 }
-.primary-alert{
+
+.primary-alert {
     background: var(--primary-color);
 }
-.secondary-alert{
+
+.secondary-alert {
     background: var(--secondary-color);
 }
-.error-alert{
+
+.error-alert {
     background-color: var(--danger-color);
 }
-.warning-alert{
+
+.warning-alert {
     background-color: var(--warning-color);
 }
-.success-alert{
+
+.success-alert {
     background-color: var(--success-color);
 }
-.secondary-alert-outline{
+
+.secondary-alert-outline {
     border: 2px solid var(--secondary-color);
     color: var(--secondary-color);
 }
-.error-alert-outline{
+
+.error-alert-outline {
     border: 2px solid var(--danger-color);
     color: var(--danger-color);
 }
-.warning-alert-outline{
+
+.warning-alert-outline {
     border: 2px solid var(--warning-color);
     color: var(--warning-color);
 }
-.success-alert-outline{
+
+.success-alert-outline {
     border: 2px solid var(--success-color);
     color: var(--success-color);
 }
-.info-alert-outline{
+
+.info-alert-outline {
     border: 2px solid var(--accent-color);
     color: var(--accent-color);
 }
