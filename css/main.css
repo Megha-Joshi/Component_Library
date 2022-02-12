@@ -10,47 +10,41 @@
     color: var(--bg-color);
 }
 
-.btn {
+.btn-main {
     display: flex;
     justify-content: center;
     flex: 0 0 12.5rem;
     gap: 1.25rem;
     flex-wrap: wrap;
-}
-
-.btn-primary {
-    position: absolute;
-    text-decoration: none;
-    background: var(--primary-color);
     padding: 0.9rem 1.8rem;
     top: 60%;
-    left: 30%;
     border-radius: 1.8rem;
     min-width: 12.5rem;
     text-align: center;
+}
+
+.btn-home {
+    position: absolute;
+    background: var(--primary-color);
+    left: 30%;
 
 }
 
-.btn-primary:hover {
+.btn-home:hover {
     background: var(--bg-color);
     color: var(--secondary-color);
 }
 
-.btn-secondary {
+.btn-home-outline {
     position: absolute;
     text-decoration: none;
     border: 5px solid transparent;
     border: 3px solid var(--secondary-color);
     color: var(--secondary-color);
-    border-radius: 1.8rem;
-    padding: 0.9rem 1.8rem;
-    top: 60%;
     left: 50%;
-    min-width: 12.5rem;
-    text-align: center;
 }
 
-.btn-secondary:hover {
+.btn-home-outline:hover {
     background: var(--primary-color);
     color: var(--bg-color);
 }
