@@ -1,57 +1,67 @@
-@import url(css\nav.css);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* Docs */
-.main{
+.main {
     display: flex;
     flex: 0 0 100%;
     gap: 3rem;
- } 
-.left-container{
+}
+
+.left-container {
     width: 15%;
 }
-.gutter{
+
+.gutter {
     margin: 0rem 1.8rem 1.25rem 8.75rem;
 }
-.list-menu{
+
+.list-menu {
     list-style: none;
     margin-top: 10px;
     padding: 10px;
     cursor: pointer;
 }
-.list-menu:hover{
+
+.list-menu:hover {
     background: var(--primary-color);
     border-radius: 5px;
 }
-.list-menu:focus{
+
+.list-menu:focus {
     color: var(--seconday-color);
 }
-.list-menu-no-hover:hover{
+
+.list-menu-no-hover:hover {
     background: none;
     border-radius: 0rem;
 }
-.list-menu a{
+
+.list-menu a {
     text-decoration: none;
     color: var(--font-color);
     font-weight: 600;
 }
-.line{
+
+.line {
     border-bottom: 2px solid #05cecd;
     padding-top: 1.25rem;
     min-width: 14.3rem;
 }
-.right-container{
+
+.right-container {
     margin-right: 6.25rem;
 }
-.title{
+
+.title {
     margin: 0.625rem 0rem 1.25rem 0.625rem;
 }
-.title-content{
+
+.title-content {
     font-weight: 300;
     font-size: 16px;
     line-height: 2rem;
     margin-right: 12.5rem;
 }
-.w-800{
+
+.w-800 {
     width: 50rem;
     margin: 0.625rem 0.625rem 2.5rem 0.625rem;
 }
