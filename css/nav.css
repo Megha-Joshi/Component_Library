@@ -29,7 +29,7 @@
     --container-margin: 1.25rem 0.625rem;
     --container-height: 40%;
     --lcontainer-height: 50%;
-    --container-border-radius: 5%;
+    --container-border-radius: 5px;
     --container-padding: 1.25rem;
 }
 
