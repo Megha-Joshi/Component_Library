@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     background-color: var(--box-color);
-    width: 80%;
+    width: var(--container-width);
     height: 30%;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 1.25rem 0.6rem;
+    border-radius: var(--container-border-radius);
+    padding: var(--container-padding);
+    margin: var(--container-margin);
 }
 
 .small-container {
