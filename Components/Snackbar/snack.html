@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="\prism.css">
     <link rel="stylesheet" href="\css\nav.css">
     <link rel="stylesheet" href="\css\doc.css">
     <link rel="stylesheet" href="\Components\Snackbar\snack.css">
@@ -97,6 +98,20 @@
                     </div>
                 </div>
             </div>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    // Baseline Snackbar
+                    <div class="snackbar-container">
+                        <div class="inside-container">
+                            <p>Can't send photo. Retry in 5 seconds.</p>
+                            <div class="item item-one">
+                                <button class="btn">RETRY</button>
+                                <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
             <!-- Leading -->
             <div class="line w-800"></div>
             <h2 class="title">Leading Snackbar</h2>
@@ -111,11 +126,24 @@
                     </div>
                 </div>
             </div>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    // Leading Snackbar
+                    <div class="snackbar-container leadsnack">
+                        <div class="inside-container margin-lead">
+                            <p>Your photo has been archieved.</p>
+                            <div class="item item-one">
+                                <button class="btn">UNDO</button>
+                                <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
             <!-- Stacked -->
             <div class="line w-800"></div>
             <h2 class="title">Stacked Snackbar</h2>
-            <p class="title-content title">Action buttons with long text should be positioned below the label instead of
-                alongside it.</p>
+            <p class="title-content title">Stacked snackbars are often used as a tooltips/popups to show a message at the bottom of the screen.</p>
             <div class="snackbar-container">
                 <div class="inside-container stacked">
                     <div>
@@ -127,10 +155,24 @@
                     </div>
                 </div>
             </div>
-            <!-- Image -->
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    // Stacked Snackbar
+                    <div class="inside-container stacked">
+                        <div>
+                            <p>This item already has the label "travel". You can add a new label.</p>
+                        </div>
+                        <div class="item item-one">
+                            <button class="btn">ADD A NEW LABEL</button>
+                            <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                        </div>
+                    </div>
+                </script>
+            </div>
 
         </div>
     </div>
+    <script src="\prism.js"></script>
 </body>
 
 </html>

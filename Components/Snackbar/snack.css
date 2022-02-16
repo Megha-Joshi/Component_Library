@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     background-color: var(--box-color);
     width: var(--container-width);
-    height: var(--container-height);
+    height: 15%;
     border-radius: var(--container-border-radius);
     padding: 10px;
     margin: var(--container-margin);
