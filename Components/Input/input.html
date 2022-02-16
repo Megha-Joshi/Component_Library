@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\prism.css">
     <link rel="stylesheet" href="\css\nav.css">
     <link rel="stylesheet" href="\css\doc.css">
     <link rel="stylesheet" href="\Components\Input\input.css">
@@ -83,20 +84,39 @@
         </div>
         <div class="right-container">
             <h1 class="title">Inputs</h1>
-            <p class="title-content line-space title">Inputs are used to take information from the user, and then save the data to the server, accordingly.</p>
+            <p class="title-content line-space title">Inputs are used to take information from the user, and then save
+                the data to the server, accordingly.</p>
             <div class="line w-800"></div>
             <h2 class="title">Form Input</h2>
-            <p class="title-content line-space title">Label Input has a label present at the top of the input field. They can be
+            <p class="title-content line-space title">Label Input has a label present at the top of the input field.
+                They can be
                 customized to show error error-message, and change color accordingly.</p>
             <div class="input-container">
                 <div class="form-container">
                     <label for="username" class="input-text">Username</label><br>
-                    <input type="text" id="username" name="username" placeholder="Username" class="input-box title-content" required><br>
+                    <input type="text" id="username" name="username" placeholder="Username"
+                        class="input-box title-content" required><br>
                     <label for="password" class="input-text error">Password*</label><br>
-                    <input type="password" id="password" name="password" placeholder="**********" class="input-box error-box title-content" required>
+                    <input type="password" id="password" name="password" placeholder="**********"
+                        class="input-box error-box title-content" required>
                     <p class="error title-content error-message">Please choose a password.</p>
                     <button class="btn-info btn btn-text">Sign In</button>
                 </div>
+            </div>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <label for="username" class="input-text">Username</label><br>
+
+                    <input type="text" placeholder="Username" class="input-box title-content" required><br>
+
+                    <label for="password" class="input-text error">Password*</label><br>
+
+                    <input type="password" placeholder="**********" class="input-box error-box title-content" required>
+
+                    <p class="error title-content error-message">Please choose a password.</p>
+
+                    <button class="btn-info btn btn-text">Sign In</button>
+                </script>
             </div>
 
 
@@ -105,6 +125,7 @@
 
         </div>
     </div>
+    <script src="\prism.js"></script>
 </body>
 
 </html>
