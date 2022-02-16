@@ -81,3 +81,9 @@ body {
 .right-nav li a:hover {
     color: var(--accent-color);
 }
+
+.code-wrapper{
+    width: var(--container-width);
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+}
