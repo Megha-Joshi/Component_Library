@@ -83,7 +83,7 @@ body {
     color: var(--accent-color);
 }
 
- /* Prism CSS  */
+/* Prism CSS  */
 
 .code-wrapper{
     width: var(--container-width);
