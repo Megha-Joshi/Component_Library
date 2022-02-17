@@ -3,14 +3,14 @@
     flex-direction: column;
     background-color: var(--box-color);
     width: var(--container-width);
-    height: 20%;
+    height: 15%;
     border-radius: var(--container-border-radius);
     padding: var(--container-padding);
     margin: var(--container-margin);
 }
 
 .small-container {
-    height: 15%;
+    height: 10%;
 }
 
 .text-sentence {
