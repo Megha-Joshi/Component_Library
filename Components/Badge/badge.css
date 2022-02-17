@@ -44,18 +44,12 @@
     background-color: var(--success-color);
 }
 
-.badge-border {
-    border: 2px solid var(--bg-color);
-}
-
 .avatar-badge {
+    border: 2px solid var(--bg-color);
     width: 0.9rem;
     height: 0.9rem;
     border-radius: 100%;
     position: absolute;
-}
-
-.avatar-badge-pos {
     top: 2rem;
     left: 2.3rem;
 }
