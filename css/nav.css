@@ -82,7 +82,3 @@ body {
 .right-nav li a:hover {
     color: var(--accent-color);
 }
-
-a:active {
-    color: white
-}
