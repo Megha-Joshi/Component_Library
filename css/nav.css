@@ -47,6 +47,7 @@ body {
     justify-content: space-between;
     align-content: center;
     padding: 2.5rem 3rem 0rem 1.25rem;
+    font-size: 26px;
 }
 
 .left-nav a {
