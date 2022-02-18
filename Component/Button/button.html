@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="\prism.css">
+    <link rel="stylesheet" href="\css\nav.css">
+    <link rel="stylesheet" href="\css\doc.css">
+    <link rel="stylesheet" href="\css\main.css">
+    <link rel="stylesheet" href="\Component\Button\button.css">
+    <title>Ozone | Button</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="left-nav">
+                <a href="/">Ozone</a>
+            </div>
+            <ul class="right-nav">
+                <li>
+                    <a href="https://github.com/Megha-Joshi"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/megha-joshi24/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/megha24joshi"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Docs -->
+    <div class="main">
+        <div class="left-container gutter">
+            <h3 class="list-menu list-menu-no-hover">Get Started</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="list-menu">
+                    <a href="doc.html">Introduction</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Colors</a>
+                </li>
+            </ul>
+            <h3 class="list-menu list-menu-no-hover">Components</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="list-menu">
+                    <a href="/">Avatar</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Alert</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Badge</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Button</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Card</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Image</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Input</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">List</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Toast</a>
+                </li>
+                <li class="list-menu">
+                    <a href="/">Text Utilities</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <h1 class="title">Buttons</h1>
+            <p class="title-content line-space title">Buttons are used to perform any action by clicking on it. It makes
+                the web page interactive to the user.</p>
+            <div class="line w-800"></div>
+            <h2 class="title">Solid Buttons</h2>
+            <p class="title-content line-space title">Solid buttons have more emphasis, as they use a color fill. They
+                contain actions that are primary to your app.</p>
+            <div class="btn-container">
+                <button class="btn-primary btn btn-text">Primary</button>
+                <button class="btn-success btn btn-text">Success</button>
+                <button class="btn-danger btn btn-text">Danger</button>
+                <button class="btn-warning btn btn-text">Warning</button>
+                <button class="btn-info btn btn-text">Info</button>
+            </div>
+            <p class="title-content line-space title">You can add these buttons by just using "btn and btn-text" class
+                along with it's btn-variant.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+
+                    <button class="btn-primary btn btn-text">Primary</button>
+
+                    <button class="btn-success btn btn-text">Success</button>
+
+                    <button class="btn-danger btn btn-text">Danger</button>
+
+                    <button class="btn-warning btn btn-text">Warning</button>
+
+                    <button class="btn-info btn btn-text">Info</button>
+				</script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Outlined Buttons</h2>
+            <p class="title-content line-space title">Outlined buttons are medium-emphasis buttons. They contain actions
+                that are important, but aren’t the primary action in an app.</p>
+            <div class="btn-container">
+                <button class="btn-secondary-outline btn-text btn">Secondary</button>
+                <button class="btn-success-outline btn-text btn">Success</button>
+                <button class="btn-danger-outline btn-text btn">Danger</button>
+                <button class="btn-warning-outline btn-text btn">Warning</button>
+                <button class="btn-info-outline btn-text btn">Info</button>
+            </div>
+            <p class="title-content line-space title">You can add these outlined buttons by just replacing btn-variant
+                with btn-variant-outline.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+
+                    <button class="btn-secondary-outline btn-text btn">Secondary</button>
+
+                    <button class="btn-success-outline btn-text btn">Success</button>
+
+                    <button class="btn-danger-outline btn-text btn">Danger</button>
+
+                    <button class="btn-warning-outline btn-text btn">Warning</button>
+
+                    <button class="btn-info-outline btn-text btn">Info</button>
+				</script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Link Button</h2>
+            <p class="title-content line-space title">Do you want to attach a link action at a button tap? Then use Link
+                Button.</p>
+            <div class="btn-container">
+                <button class="btn-info btn btn-text">
+                    <a href="" class="btn-text">Link</a>
+                </button>
+            </div>
+            <p class="title-content line-space title">You can add this link button by adding "btn-info" class along with
+                "btn and
+                btn-text" class.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <button class="btn-info btn btn-text">
+                        <a href="" class="btn-text">Link</a>
+                    </button>
+				</script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Icon Button</h2>
+            <p class="title-content line-space title">Icon Buttons can be created by using an image as a child to parent
+                button.</p>
+            <div class="btn-container">
+                <button class="btn-info btn btn-text icon-button">
+                    <img src="\images\download_icon.png" class="btn-img">
+                    <span>Download</span></button>
+                <button class="btn-info btn btn-text icon-button">
+                    <img src="\images\save_icon.png" class="btn-img">
+                    <span>Save</span></button>
+
+            </div>
+            <p class="title-content line-space title">You can add this icons by adding "icon-button" class along
+                with "btn, btn-text and btn-info" class.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+
+                    <button class="btn-info btn btn-text icon-button">
+                        <img src="" class="btn-img"><span>Download</span>
+                    </button>
+
+                    <button class="btn-info btn btn-text icon-button">
+                        <img src="" class="btn-img"><span>Save</span>
+                    </button>
+				</script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Button With Icon Only</h2>
+            <p class="title-content line-space title">Icon Buttons can be created by using an image as a child to parent
+                button.</p>
+            <div class="btn-container">
+                <button class="btn btn-only-icon">
+                    <i class="fas fa-download fa-3x hover"></i></button>
+                <button class="btn btn-only-icon">
+                    <i class="fas fa-save fa-3x"></i></button>
+                <button class="btn btn-only-icon">
+                    <i class="fas fa-heart fa-3x"></i></button>
+            </div>
+            <p class="title-content line-space title">You can add this icon buttons by adding "btn-only-icon" class
+                along
+                with "btn" class.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <button class="btn btn-only-icon">
+                        <i class="fas fa-download fa-3x hover"></i>
+                    </button>
+                    <button class="btn btn-only-icon">
+                        <i class="fas fa-save fa-3x"></i>
+                    </button>
+                    <button class="btn btn-only-icon">
+                        <i class="fas fa-heart fa-3x"></i>
+                    </button>
+				</script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Floating Action Button</h2>
+            <p class="title-content line-space title">A floating action button performs the primary, or most common,
+                action on a screen.</p>
+            <div class="btn-container">
+                <button class="float-btn float-action">
+                    <span><i class="fal fa-plus"></i></span>
+                </button>
+                <button class="float-btn float-action">
+                    <span><i class="fal fa-check"></i></span>
+                </button>
+            </div>
+            <p class="title-content line-space title">You can add this float action buttons by adding "float-btn" and
+                "float-action" class to the button tag.</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <button class="float-btn float-action">
+                        <span><i class="fal fa-plus"></i></span>
+                    </button>
+                    <button class="float-btn float-action">
+                        <span><i class="fal fa-check"></i></span>
+                    </button>
+            </script>
+            </div>
+        </div>
+    </div>
+    <script src="\prism.js"></script>
+</body>
+
+</html>
