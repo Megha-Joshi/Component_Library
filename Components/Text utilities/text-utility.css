@@ -1,0 +1,69 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--box-color);
+    width: var(--container-width);
+    height: 15%;
+    border-radius: var(--container-border-radius);
+    padding: var(--container-padding);
+    margin: var(--container-margin);
+}
+
+.small-container {
+    height: 10%;
+}
+
+.text-sentence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    margin: 5px;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.smaller-text {
+    font-size: smaller;
+}
+
+.xsmall-text {
+    font-size: x-small;
+}
+
+.xxsmall-text {
+    font-size: xx-small;
+}
+
+.w-700 {
+    min-width: 31.25rem;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.large-text {
+    font-size: large;
+}
+
+.xlarge-text {
+    font-size: xx-large;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-sentence {
+    margin: 5px;
+}
+
+.center-container {
+    height: 6%;
+    padding: 10px;
+}
