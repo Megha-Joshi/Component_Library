@@ -1,0 +1,68 @@
+:root {
+    --snack-bar-color: #333;
+}
+
+.snackbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: var(--box-color);
+    width: var(--container-width);
+    height: 15%;
+    border-radius: var(--container-border-radius);
+    padding: 10px;
+    margin: var(--container-margin);
+}
+
+.inside-container {
+    display: flex;
+    background-color: var(--snack-bar-color);
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--bg-color);
+    min-width: 25rem;
+    height: 3.125rem;
+    border-radius: var(--container-border-radius);
+    margin-bottom: 10px;
+    position: sticky;
+    padding: 0px 0.9rem;
+    gap: var(--container-gap);
+    cursor: auto;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.item {
+    margin-left: auto;
+}
+
+.item-one {
+    display: flex;
+    gap: var(--container-gap);
+    justify-content: space-between;
+    align-content: center;
+}
+
+.btn,
+.cross-btn {
+    background-color: var(--snack-bar-color);
+    border: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stacked {
+    flex-direction: column;
+    height: 6.25rem;
+    padding-right: 10px;
+}
+
+.margin-lead {
+    margin-left: 10px;
+}
+
+.leadsnack {
+    justify-content: flex-start;
+}
