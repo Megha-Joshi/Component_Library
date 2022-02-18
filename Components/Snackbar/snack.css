@@ -44,7 +44,7 @@
     align-content: center;
 }
 
-.btn,
+.snack-btn,
 .cross-btn {
     background-color: var(--snack-bar-color);
     border: none;
