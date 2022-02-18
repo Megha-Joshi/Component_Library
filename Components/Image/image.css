@@ -1,0 +1,30 @@
+@import url(\css\nav.css);
+@import url(\css\doc.css);
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
+}
+.res-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.round-image{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+.square-image{
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 5px;
+}
