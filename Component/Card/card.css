@@ -1,0 +1,140 @@
+@import url(nav.css);
+@import url(doc.css);
+@import url(button.css);
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
+}
+
+.card {
+    width: 25rem;
+    border-radius: var(--container-border-radius);
+    padding-bottom: var(--container-padding);
+    cursor: pointer;
+    background-color: var(--bg-color);
+}
+
+.card-head {
+    margin: 10px 0px 0px 10px;
+}
+
+.card-text {
+    margin: 0.3rem 0rem 1.25rem 0.625rem;
+    font-weight: 500;
+}
+
+.card-para {
+    margin: 0px 0px 15px 0.625rem;
+    font-weight: normal;
+    font-size: .875rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    cursor: auto;
+    gap: 10px;
+}
+
+.card-footer-start {
+    justify-content: flex-start;
+    gap: var(--container-gap);
+    margin-left: 5px;
+}
+
+.card-btn {
+    background: var(--secondary-color);
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-btn:hover {
+    background: var(--bg-color);
+    color: var(--secondary-color);
+}
+
+.card-img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+
+.horizontal-flex {
+    display: flex;
+
+}
+
+.hz-card {
+    height: 50%;
+    flex-basis: 21.8rem;
+}
+
+.hz-image {
+    width: 30%;
+    height: 6.25rem;
+    margin-bottom: 0.9rem;
+}
+
+
+.icons {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.icons:hover {
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+}
+
+.card-para-dismiss {
+    display: none;
+}
+
+.card-shadow {
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.image-overlay {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    color: black;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.cross-badge {
+    background-color: var(--danger-color);
+}
+
+.text-badge {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
