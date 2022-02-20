@@ -83,6 +83,11 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    background-color: var(--box-color);
+    border-radius: var(--container-border-radius);
+}
+
 /* Prism CSS */
 
 .code-wrapper {
@@ -90,10 +95,5 @@ body {
     margin: var(--container-margin);
     padding: 1.25rem 0rem;
     text-align: center;
-    border-radius: var(--container-border-radius);
-}
-
-.current {
-    background-color: var(--box-color);
     border-radius: var(--container-border-radius);
 }
