@@ -1,0 +1,29 @@
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
+}
+
+.avatar-image {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+
+}
+
+.sm {
+    width: 3rem;
+    height: 3rem;
+}
+
+.lg {
+    width: 9.3rem;
+    height: 9.3rem;
+}

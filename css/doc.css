@@ -1,0 +1,67 @@
+/* Docs */
+.main {
+    display: flex;
+    flex: 0 0 100%;
+    gap: 3rem;
+}
+
+.left-container {
+    width: 15%;
+}
+
+.gutter {
+    margin: 0rem 1.8rem 1.25rem 8.75rem;
+}
+
+.list-menu {
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list-menu:hover {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+.list-menu:focus {
+    color: var(--seconday-color);
+}
+
+.list-menu-no-hover:hover {
+    background: none;
+    border-radius: 0rem;
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+.line {
+    border-bottom: 2px solid var(--secondary-color);
+    padding-top: 1.25rem;
+    min-width: 14.3rem;
+}
+
+.right-container {
+    margin-right: 6.25rem;
+}
+
+.title {
+    margin: 0.625rem 0rem 1.25rem 0.625rem;
+}
+
+.title-content {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-right: 12.5rem;
+}
+
+.w-800 {
+    width: 50rem;
+    margin: 0.625rem 0.625rem 2.5rem 0.625rem;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/prism.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/doc.css">
+    <link rel="stylesheet" href="/Components/Badge/badge.css">
+    <link rel="stylesheet" href="/Components/Avatar/avatar.css">
+    <title>Ozone | Badge</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="left-nav">
+                <a href="../../index.html">Ozone</a>
+            </div>
+            <ul class="right-nav">
+                <li>
+                    <a href="https://github.com/Megha-Joshi"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/megha-joshi24/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/megha24joshi"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Docs -->
+    <div class="main">
+        <div class="left-container gutter">
+            <h3 class="list-menu list-menu-no-hover">Get Started</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="list-menu">
+                    <a href="../../Get Started/doc.html">Introduction</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../../Get Started/color.html">Colors</a>
+                </li>
+            </ul>
+            <h3 class="list-menu list-menu-no-hover">Components</h3>
+            <div class="line"></div>
+            <ul>
+                <li class="list-menu">
+                    <a href="../Avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Alert/alert.html">Alert</a>
+                </li>
+                <li class="list-menu current">
+                    <a href="../Badge/badge.html">Badge</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Button/button.html">Button</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Card/card.html">Card</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Image/image.html">Image</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Input/input.html">Input</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Lists/list.html">List</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Snackbar/snack.html">Toast</a>
+                </li>
+                <li class="list-menu">
+                    <a href="../Text utilities/text-utility.html">Text Utilities</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <h1 class="title">Badge</h1>
+            <p class="title-content line-space title">Badges are small circles, positioned either at top-right or
+                bottom-right of the parent component. Badge can be used to display numbers, online / offline status,
+                depending on where they are used.</p>
+            <div class="line w-800"></div>
+            <!-- Badge on icons -->
+            <h2 class="title">Badge on icons</h2>
+            <p class="title-content line-space title">Number Badge is used to show the no. of items present in the
+                parent component.</p>
+            <div class="badge-container">
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/mdi:home.svg" class="badge-icon" alt="home">
+                    <div class="badge red-circle">9</div>
+                </div>
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/mdi:bell.svg" class="badge-icon" alt="bell">
+                    <div class="badge yellow-circle">7</div>
+                </div>
+                <div class="badge-item">
+                    <img src="https://api.iconify.design/feather:shopping-cart.svg" class="badge-icon" alt="cart">
+                    <div class="badge green-circle">5</div>
+                </div>
+            </div>
+            <p class="title-content line-space title">You can use this badge by adding different colors circle class
+                along
+                with the common class "badge".</p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    // Home Icon
+                    <div class="badge-item">
+                        <img src=".." class="badge-icon" alt="..">
+                        <div class="badge red-circle">9</div>
+                    </div>
+                    // Bell Icon
+                    <div class="badge-item">
+                        <img src=".." class="badge-icon" alt="..">
+                        <div class="badge yellow-circle">7</div>
+                    </div>
+                    // Cart Icon
+                    <div class="badge-item">
+                        <img src=".." class="badge-icon" alt="..">
+                        <div class="badge green-circle">5</div>
+                    </div>
+                </script>
+            </div>
+            <div class="line w-800"></div>
+            <!-- Badge on Avatars -->
+            <h2 class="title">Badge on avatars</h2>
+            <p class="title-content line-space title">Profile Badge is used to show the current status of a user.</p>
+            <div class="badge-container">
+                <div class="badge-item">
+                    <img src="\images\avatar.jpeg" class="avatar-image sm" alt="avatar">
+                    <div class="dnd avatar-badge"></div>
+                </div>
+                <div class="badge-item">
+                    <img src="\images\avatar.jpeg" class="avatar-image sm" alt="avatar">
+                    <div class="avatar-badge offline"></div>
+                </div>
+                <div class="badge-item">
+                    <img src="\images\avatar.jpeg" class="avatar-image sm" alt="avatar">
+                    <div class="online avatar-badge"></div>
+                </div>
+            </div>
+            <p class="title-content line-space title">Profile Badge can be used by adding "avatar-badge" class with the
+                different status class of the user. </p>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <div class="badge-item">
+                        <img src="" class="avatar-image sm" alt="avatar">
+                        <div class="avatar-badge dnd"></div>
+                    </div>
+                    <div class="badge-item">
+                        <img src="" class="avatar-image sm" alt="avatar">
+                        <div class="avatar-badge offline"></div>
+                    </div>
+                    <div class="badge-item">
+                        <img src="" class="avatar-image sm" alt="avatar">
+                        <div class="avatar-badge online"></div>
+                    </div>
+
+				</script>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="\prism.js"></script>
+</body>
+
+</html>

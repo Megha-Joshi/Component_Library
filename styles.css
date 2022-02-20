@@ -1,0 +1,14 @@
+@import url(./css/nav.css);
+@import url(./css/main.css);
+@import url(./Components/Alert/alert.css);
+@import url(./Components/Avatar/avatar.css);
+@import url(./Components/Badge/badge.css);
+@import url(./Components/Button/button.css);
+@import url(./Components/Card/card.css);
+@import url(./Components/Image/image.css);
+@import url(./Components/Input/input.css);
+@import url(./Components/Lists/list.css);
+@import url(./Components/Snackbar/snack.css);
+@import url(./Components/Text\ utilities/text-utility.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
