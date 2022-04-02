@@ -46,6 +46,25 @@
     flex-wrap: wrap;
 }
 
+.right-navi-section {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+}
+
+.left-navi-section {
+    text-decoration: none;
+    color: var(--font-color);
+    margin: 0.5rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.left-navi-section :hover{
+    color: var(--accent-color);
+}
+
+
 
 .items-color {
     color: var(--font-color);
@@ -79,20 +98,6 @@
 
 .btn-only-icon {
     min-width: 0px;
-}
-
-.right-navi-section {
-    display: flex;
-    margin-left: auto;
-    list-style: none;
-}
-
-.left-navi-section a {
-    text-decoration: none;
-    color: var(--font-color);
-    margin: 0.5rem;
-    cursor: pointer;
-    font-weight: 400;
 }
 
 /* Override Component Library */
