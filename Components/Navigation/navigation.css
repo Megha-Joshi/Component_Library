@@ -1,0 +1,102 @@
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    flex-basis: 37.5rem;
+    max-width: var(--container-width);
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+    flex-wrap: wrap;
+}
+
+.search-box {
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1.8rem;
+    padding: 10px;
+    margin: 0rem 2rem 0rem 5rem;
+}
+
+.search-box:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.badge {
+    color: var(--bg-color);
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.navi-head-section {
+    display: flex;
+    width: 46.5rem;
+    height: 6.25rem;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    font-size: 1.6rem;
+    background-color: var(--bg-color);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+
+.items-color {
+    color: var(--font-color);
+}
+
+
+.login-color {
+    color: var(--secondary-color);
+}
+
+.btn-secondary-outline:hover {
+    background: var(--bg-color);
+    text-decoration: underline;
+}
+
+.justify-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 0px 1.25rem;
+    padding: 0.7rem;
+    min-width: 6.25rem;
+    cursor: pointer;
+}
+
+.btn-round {
+    border-radius: 1.8rem;
+}
+
+.btn-only-icon {
+    min-width: 0px;
+}
+
+.right-navi-section {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+}
+
+.left-navi-section a {
+    text-decoration: none;
+    color: var(--font-color);
+    margin: 0.5rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/* Override Component Library */
+
+.no-margin {
+    margin: 0;
+}
