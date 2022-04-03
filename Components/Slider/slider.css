@@ -11,7 +11,7 @@
     margin: var(--container-margin);
 }
 
-.slider-section{
+.slider-section {
     display: flex;
     background-color: var(--bg-color);
     gap: 1rem;
@@ -19,6 +19,6 @@
     border-radius: 0.25rem;
 }
 
-.inp-slider{
+.inp-slider {
     width: 23.75rem;
 }
