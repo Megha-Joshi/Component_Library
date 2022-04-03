@@ -28,7 +28,8 @@
     color: var(--box-color);
     cursor: pointer;
 }
- .rate-star{
-     background-color: transparent;
-     border: none;
- }
+
+.rate-star {
+    background-color: transparent;
+    border: none;
+}
