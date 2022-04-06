@@ -15,7 +15,7 @@
 .modal-section {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 4px;
     background-color: var(--bg-color);
     width: 31.25rem;
     height: 13.2rem;
