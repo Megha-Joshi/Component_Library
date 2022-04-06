@@ -16,7 +16,7 @@
     background-color: var(--bg-color);
     gap: 1rem;
     padding: 1rem;
-    border-radius: 0.25rem;
+    border-radius: 4px;
 }
 
 .inp-slider {
