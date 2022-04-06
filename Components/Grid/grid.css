@@ -4,19 +4,27 @@
     gap: var(--container-gap);
     background-color: var(--box-color);
     width: var(--container-width);
-    height: 25%;
+    height: 15%;
     justify-content: center;
     align-items: center;
     border-radius: var(--container-border-radius);
     margin: var(--container-margin);
 }
 
-.grid-section-simple{
+.grid-section{
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: repeat(2, minmax(0, 1fr));
     width: 500px;
     gap: 10px;
+}
+
+.col-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.col-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .gr-box{
@@ -27,11 +35,6 @@
     color: var(--bg-color);
 }
 
-.grid-section-uneven{
-    display: grid;
-    width: 500px;
-    gap: 10px;
-} 
 .gr-box1{
     grid-column: 1;
     grid-row: 1/ span 2;

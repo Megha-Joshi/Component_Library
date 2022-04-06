@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/Components/Grid/grid.css">
     <link rel="stylesheet" href="/prism.css">
     <link rel="shortcut icon" href="../../images/Ozone-modified.png" type="image/x-icon">
-    <title>Ozone | Grid</title>
+    <title>Ozone | Modal</title>
 </head>
 
 <body>
@@ -91,7 +91,7 @@
                     <a href="../Rating/rating.html">Rating</a>
                 </li>
                 <li class="list-menu">
-                    <a href="../Slider/slider.html">List</a>
+                    <a href="../Slider/slider.html">Slider</a>
                 </li>
                 <li class="list-menu">
                     <a href="../Snackbar/snack.html">Toast</a>
@@ -103,15 +103,13 @@
         </div>
         <div class="right-container">
             <h1 class="title">Grid</h1>
-            <p class="title-content line-space title">Alert messages can be used to notify the user about something
-                special. Ozone has 2 types of alert. </p>
+            <p class="title-content line-space title">Grid offers a grid-based layout system, with
+                rows and columns, making it easier to design web pages without having to use floats and positioning.
+            </p>
             <div class="line w-800"></div>
-            <h2 class="title">Grid</h2>
-            <p class="title-content line-space title">Simple Alert can be added by adding a different alert type class
-                along
-                with "alert" class.</p>
+            <h2 class="title">Grid with 2 rows and 3 columns </h2>
             <div class="grid-container">
-                <div class="grid-section-simple">
+                <div class="grid-section col-3">
                     <div class="gr-box">1</div>
                     <div class="gr-box">2</div>
                     <div class="gr-box">3</div>
@@ -122,7 +120,7 @@
             </div>
             <div class="code-wrapper">
                 <script type="text/plain" class="language-markup line-numbers">
-                    <div class="grid-section-simple">
+                    <div class="grid-section col-3">
                         <div class="gr-box">1</div>
                         <div class="gr-box">2</div>
                         <div class="gr-box">3</div>
@@ -130,15 +128,36 @@
                         <div class="gr-box">5</div>
                         <div class="gr-box">6</div>
                     </div>
-            </script>
+                </script>
             </div>
             <div class="line w-800"></div>
-            <h2 class="title">Grid</h2>
-            <p class="title-content line-space title">Simple Alert can be added by adding a different alert type class
-                along
-                with "alert" class.</p>
+            <h2 class="title">Grid with 3 rows and 2 columns </h2>
             <div class="grid-container">
-                <div class="grid-section-uneven">
+                <div class="grid-section col-2">
+                    <div class="gr-box">1</div>
+                    <div class="gr-box">2</div>
+                    <div class="gr-box">3</div>
+                    <div class="gr-box">4</div>
+                    <div class="gr-box">5</div>
+                    <div class="gr-box">6</div>
+                </div>
+            </div>
+            <div class="code-wrapper">
+                <script type="text/plain" class="language-markup line-numbers">
+                    <div class="grid-section col-2">
+                        <div class="gr-box">1</div>
+                        <div class="gr-box">2</div>
+                        <div class="gr-box">3</div>
+                        <div class="gr-box">4</div>
+                        <div class="gr-box">5</div>
+                        <div class="gr-box">6</div>
+                    </div>
+                </script>
+            </div>
+            <div class="line w-800"></div>
+            <h2 class="title">Uneven Grid</h2>
+            <div class="grid-container">
+                <div class="grid-section">
                     <div class="gr-box1 grid">1</div>
                     <div class="gr-box2 grid">2</div>
                     <div class="gr-box3 grid">3</div>
@@ -148,7 +167,7 @@
             </div>
             <div class="code-wrapper">
                 <script type="text/plain" class="language-markup line-numbers">
-                    <div class="grid-section-uneven">
+                    <div class="grid-section">
                         <div class="gr-box1 grid">1</div>
                         <div class="gr-box2 grid">2</div>
                         <div class="gr-box3 grid">3</div>
