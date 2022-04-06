@@ -14,9 +14,9 @@
 .star-section {
     display: flex;
     background-color: var(--bg-color);
-    gap: 0.25rem;
+    gap: 4px;
     padding: 0.75rem;
-    border-radius: 0.25rem;
+    border-radius: 4px;
 }
 
 .filled {
