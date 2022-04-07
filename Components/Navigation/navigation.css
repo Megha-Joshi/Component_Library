@@ -28,7 +28,7 @@
 
 .badge {
     color: var(--bg-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     cursor: pointer;
 }
@@ -60,7 +60,7 @@
     font-weight: 400;
 }
 
-.left-navi-section :hover{
+.left-navi-section :hover {
     color: var(--accent-color);
 }
 
@@ -86,7 +86,7 @@
 }
 
 .btn {
-    margin: 0px 1.25rem;
+    margin: 0rem 1.25rem;
     padding: 0.7rem;
     min-width: 6.25rem;
     cursor: pointer;
