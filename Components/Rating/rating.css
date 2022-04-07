@@ -1,0 +1,35 @@
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+}
+
+.star-section {
+    display: flex;
+    background-color: var(--bg-color);
+    gap: 4px;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.filled {
+    color: #FDCC0D;
+    cursor: pointer;
+}
+
+.unfilled {
+    color: var(--box-color);
+    cursor: pointer;
+}
+
+.rate-star {
+    background-color: transparent;
+    border: none;
+}
