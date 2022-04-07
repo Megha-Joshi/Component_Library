@@ -1,0 +1,24 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--container-gap);
+    background-color: var(--box-color);
+    width: var(--container-width);
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--container-border-radius);
+    margin: var(--container-margin);
+}
+
+.slider-section {
+    display: flex;
+    background-color: var(--bg-color);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.inp-slider {
+    width: 23.75rem;
+}
