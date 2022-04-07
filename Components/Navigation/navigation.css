@@ -64,12 +64,9 @@
     color: var(--accent-color);
 }
 
-
-
 .items-color {
     color: var(--font-color);
 }
-
 
 .login-color {
     color: var(--secondary-color);
